@@ -42,7 +42,7 @@
     </div>
     <div class="equation">
       <h1 id="num1" style="color:rgb(100, 100, 161)"></h1>
-      <h1 style="color: #cf5487">-</h1>
+      <h1 style="color: #cf5487">/</h1>
       <h1 id="num2" style="color: #2b230a">1</h1>
       <h1 style="color: #a35632">=</h1>
       <h1 style="color: rgb(102, 17, 17)">?</h1>
@@ -50,8 +50,8 @@
     
   </div>
   <div class="footer">
-    <h2 class="title">More Games</h2>
-    <script src="./api.js"></script>
+    <h2 class="title">..</h2>
+    <script src="fetchapi.js"></script>
   </div>
   <script src="../js/divide.js"></script>
 </body>

@@ -40,20 +40,20 @@
         <div class="options" style="background-color: #772014;">
           <h1 id="option3">3</h1>
         </div>
-      </div>
-      <div class="equation">
-        <h1 id="num1" style="color:#FE4A49"></h1>
-        <h1 style="color: #2AB7CA">+</h1>
-        <h1 id="num2" style="color: #FED766">1</h1>
-        <h1 style="color: #F86624">=</h1>
-        <h1 style="color: gray">?</h1>
+    </div>
+    <div class="equation">
+      <h1  id="num1" style="color:rgb(100, 100, 161)">1</h1>
+      <h1 style="color: #cf5487;">+</h1>
+      <h1  id="num2" style="color: #2b230a">1</h1>
+      <h1  style="color: #a35632">=</h1>
+      <h1  style="color: rgb(102, 17, 17)">?</h1>
     </div>
       
       
   </div>
   <div class="footer">
     <h2 class="title">..</h2>
-    <script src="api.js"></script>
+    <script src="fetchapi.js"></script>
   </div>
 
   <script src="../js/add.js"></script>

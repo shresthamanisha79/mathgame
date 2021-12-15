@@ -52,8 +52,8 @@
     
   </div>
   <div class="footer">
-    <h2 class="title">More Games</h2>
-    <script src="./api.js"></script>
+    <h2 class="title">..</h2>
+    <script src="fetchapi.js"></script>
   </div>
 
   <script src="../js/multiply.js"></script>

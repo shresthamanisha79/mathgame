@@ -12,8 +12,8 @@ use League\OAuth2\Client\Provider\Github;
 /*
  * Configuration and setup GitHub API
  */
-$clientID         = "9cb81539b58c905d2ad4";
-$clientSecret     = "7d83ee55786432a910fd6407d0856af6fa9e987c";
+$clientID         = "clientid";
+$clientSecret     = "clientsecret";
 $redirectURL     = "http://127.0.0.1:81/github-login/test/";
 
 $gitClient = new Github_OAuth_Client(array(

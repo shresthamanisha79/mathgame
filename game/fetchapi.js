@@ -1,6 +1,6 @@
-/** fetch API */
+//fetch Api
 let title = document.querySelector(".title");
-fetch("https://free-to-play-games-database.p.rapidapi.com/api/game", {
+fetch("https://free-to-play-games-database.p.rapidapi.com/api/game?id=452", {
   method: "GET",
   headers: {
     "x-rapidapi-host": "free-to-play-games-database.p.rapidapi.com",

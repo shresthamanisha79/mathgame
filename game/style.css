@@ -93,20 +93,17 @@ nav a{
   grid-template-columns: 15% 85%;
 }
 
-.eq{
-  display: FLEX;
+.equation{
+  display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 2px 2px 6px 0px rgb(0 0 0 / 90%);
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.9);
   font-size: 5.2vw;
   background: #fff;
   border-radius: 3px;
   text-align: center;
-  margin: 25px 10px 0px 10px;;
-
+  margin: 10px 10px 0px 10px;
 }
-
-
 
 .equation h1{
   display: inline;

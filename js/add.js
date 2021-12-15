@@ -34,6 +34,7 @@ opt1.addEventListener("click", function(){
     }
     else{
       audio.play();
+      opt1.style.backgroundColor = 'red';
     }
 });
 
@@ -42,6 +43,7 @@ opt2.addEventListener("click", function(){
       generate_equation();
     }
     else{
+      opt2.style.backgroundColor = 'red';
       audio.play();
     }
 });
@@ -51,6 +53,7 @@ opt3.addEventListener("click", function(){
       generate_equation();
     }
     else{
+      opt3.style.backgroundColor = 'red';
       audio.play();
     }
 });
