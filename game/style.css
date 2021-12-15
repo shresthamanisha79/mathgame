@@ -1,0 +1,200 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: cursive;
+  background-color: #E6E6EA;
+}
+
+.welcome{
+    text-align: center;
+}
+
+.registerform{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    width: 100%;
+}
+
+.register{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+.textf{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+header{
+  background: rgb(179, 110, 179);
+}
+
+.container{
+  width: 95%;
+  margin: auto;
+}
+
+.nav{
+  overflow: hidden;
+  background:rgb(179, 110, 179);
+  color: #fff;
+  padding: 20px 0;
+}
+
+.nav h2{
+  font-size: 2rem;
+  float: left;
+}
+
+nav{
+  float: right;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav li{
+  font-size: 1.3rem;
+  margin-top: 5px;
+  float: left;
+  padding: 0 15px;
+}
+
+nav a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.current a::after{
+  content: '-';
+  font-size: 4px;
+  background-color: white;
+  display: block;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+
+.eq{
+  display: FLEX;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 6px 0px rgb(0 0 0 / 90%);
+  font-size: 5.2vw;
+  background: #fff;
+  border-radius: 3px;
+  text-align: center;
+  margin: 25px 10px 0px 10px;;
+
+}
+
+
+
+.equation h1{
+  display: inline;
+  padding: 20px;
+}
+
+.answer-options{
+  font-size: 5.2vw;
+  margin-right: 10px;
+}
+
+.options{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 10px;
+  color: #fff;
+  transition: 2s;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.9);
+}
+
+.footer{
+  text-align: center;
+  height: 50px;
+  background-color: rgb(179, 110, 179);
+  font-size: 20px;
+}
+
+.result_box{
+  background: #fff;
+  border-radius: 5px;
+  display: flex;
+  padding: 25px 30px;
+  width: 450px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  transform: translate(-50%, -50%) scale(0.9);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.result_box .complete_text{
+  font-size: 20px;
+  font-weight: 500;
+}
+.result_box .score_text span{
+  display: flex;
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+.result_box .score_text span p{
+  padding: 0 4px;
+  font-weight: 600;
+}
+.result_box .buttons{
+  display: flex;
+  margin: 20px 0;
+}
+.result_box .buttons button{
+  margin: 0 10px;
+  height: 45px;
+  padding: 0 20px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid plum;
+  transition: all 0.3s ease;
+}
+.buttons button.restart{
+  color: #fff;
+  background: plum;
+}
+.buttons button.restart:hover{
+  background: plum;
+}
+.buttons button.quit{
+  color: plum;
+  background: #fff;
+}
+.buttons button.quit:hover{
+  color: #fff;
+  background: plum;
+}
+
